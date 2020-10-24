@@ -7,5 +7,3 @@
 function sum(m, n) {
   return m + n;
 }
-var a = sum(1,2);
-var b = sum(2,5);

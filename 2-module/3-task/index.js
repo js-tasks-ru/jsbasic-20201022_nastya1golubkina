@@ -1,9 +1,9 @@
 let calculator = {
   // ваш код
 
-  read() {
-    this.a = +prompt('Введите а:', 0);
-    this.b = +prompt('Введите b:', 0);
+  read(a, b) {
+    this.a = a;
+    this.b = b;
   },
 
   sum() {
@@ -13,7 +13,7 @@ let calculator = {
   mul() {
     return this.a * this.b;
   }
-
+  
 };
 
 
